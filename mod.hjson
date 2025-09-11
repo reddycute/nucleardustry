@@ -1,0 +1,8 @@
+name: "nuclear-dustry"
+displayName: "Nuclear Mindustry"
+author: alstocras
+description: "Adds nuclear stuff to the game."
+version: "7.0"
+minGameVersion: "146"
+dependencies: [ ]
+hidden: false

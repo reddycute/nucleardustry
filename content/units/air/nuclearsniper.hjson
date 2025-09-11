@@ -1,0 +1,18 @@
+type: flying
+name: Nuclear Sniper
+description: A unit that fires heavily damaging thorium and hydrogen bullets.
+research: {
+    parent: flare
+    requirements: [
+        titanium/1000
+        metaglass/500
+    ]
+}
+weapons: [
+    {
+        bullet: {
+            type: MissileBulletType
+            damage: 10000
+        }
+    }
+]
