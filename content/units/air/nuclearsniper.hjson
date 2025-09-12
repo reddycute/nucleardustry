@@ -2,7 +2,7 @@ type: flying
 name: Nuclear barrage
 description: A unit that fires heavily damaging thorium and hydrogen bullets.
 health: 2000
-speed: 15
+speed: 10
 research: {
     parent: nuclearfactory
     requirements: [
@@ -20,7 +20,7 @@ weapons: [
     inaccuracy: 5   # spread in degrees
     bullet: {
       type: MissileBulletType
-      damage: 10   # weaker per shot, but spam makes up for it
+      damage: 7  # weaker per shot, but spam makes up for it
       speed: 12.75
       lifetime: 80
       maxRange: 800
