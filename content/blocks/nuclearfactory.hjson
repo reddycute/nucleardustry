@@ -11,18 +11,22 @@ research:{
         ]
 }
 
-plans: [
+health: 600
+consumes: { power: 2 }
+craftTime: 50
+requirements: [
+  titanium/40
+  silicon/30
+]
+category: units
+
+abilities: [
   {
+    type: spawnUnit
     unit: nuclearsniper
-    requirements: [
-      titanium/40
-      silicon/30
-    ]
-    time: 50
+    spawnX: 0
+    spawnY: 0
+    spawnTime: 600
+    maxSpawned: 4
   }
 ]
-
-health: 500
-consumes: {
-  power: 2
-}

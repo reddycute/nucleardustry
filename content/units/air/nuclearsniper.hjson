@@ -1,8 +1,7 @@
 type: flying
-name: Nuclear Sniper
+name: Nuclear barrage
 description: A unit that fires heavily damaging thorium and hydrogen bullets.
 health: 2000
-range: 300
 research: {
     parent: nuclearfactory
     requirements: [
@@ -11,10 +10,23 @@ research: {
     ]
 }
 weapons: [
-    {
-        bullet: {
-            type: MissileBulletType
-            damage: 50
-        }
+  {
+    name: nuclear-barrage
+    x: 0
+    y: 0
+    reload: 12        # every 12 ticks = 5 shots/sec
+    shots: 3          # 3 missiles per firing cycle
+    inaccuracy: 10    # spread in degrees
+    bullet: {
+      type: MissileBulletType
+      damage: 15      # weaker per shot, but spam makes up for it
+      speed: 10
+      lifetime: 80
+      maxRange: 800
+      homingPower: 0.1
+      homingRange: 120
+      weaveScale: 2   # makes them wiggle
+      weaveMag: 1.5   # more chaotic pattern
     }
+  }
 ]
