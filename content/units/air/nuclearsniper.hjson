@@ -14,13 +14,13 @@ weapons: [
     name: nuclear-barrage
     x: 0
     y: 0
-    reload: 12        # every 12 ticks = 5 shots/sec
+    reload: 1       # every 12 ticks = 5 shots/sec
     shots: 3          # 3 missiles per firing cycle
-    inaccuracy: 10    # spread in degrees
+    inaccuracy: 5   # spread in degrees
     bullet: {
       type: MissileBulletType
-      damage: 15      # weaker per shot, but spam makes up for it
-      speed: 10
+      damage: 100    # weaker per shot, but spam makes up for it
+      speed: 12.75
       lifetime: 80
       maxRange: 800
       homingPower: 0.1
