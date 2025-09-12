@@ -1,19 +1,19 @@
-type: unitFactory
-name: Nuclear Unit Factory
-description: Makes the nuclear sniper.
+type: genericCrafter
+name: Nuclear Spawner
+description: Spawns nuclear snipers over time.
 size: 3
 
-research:{
-        parent: air-factory
-        requirements: [
-            titanium/1000
-            silicon/500
-        ]
+research: {
+  parent: ripple
+  requirements: [
+    titanium/1000
+    silicon/500
+  ]
 }
 
 health: 600
 consumes: { power: 2 }
-craftTime: 50
+craftTime: 600
 requirements: [
   titanium/40
   silicon/30
@@ -23,7 +23,7 @@ category: units
 abilities: [
   {
     type: spawnUnit
-    unit: nuclearsniper
+    unit: Nuclear Sniper
     spawnX: 0
     spawnY: 0
     spawnTime: 600
