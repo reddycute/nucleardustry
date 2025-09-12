@@ -1,0 +1,1 @@
+const fusionDevice = extend(transportation, "fusion-device")
