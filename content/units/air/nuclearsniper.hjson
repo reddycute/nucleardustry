@@ -1,4 +1,4 @@
-type: flying
+type: mech
 name: Nuclear barrage
 description: A unit that fires heavily damaging thorium and hydrogen bullets.
 health: 2000
