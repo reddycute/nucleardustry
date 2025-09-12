@@ -1,0 +1,28 @@
+type: unitFactory
+name: Nuclear Unit Factory
+description: Makes the nuclear sniper.
+size: 3
+
+research:{
+        parent: air-factory
+        requirements: [
+            titanium/1000
+            silicon/500
+        ]
+}
+
+plans: [
+  {
+    unit: nuclearsniper
+    requirements: [
+      titanium/40
+      silicon/30
+    ]
+    time: 50
+  }
+]
+
+health: 500
+consumes: {
+  power: 2
+}
