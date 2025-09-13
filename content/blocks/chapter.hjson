@@ -18,6 +18,8 @@ requirements: [
   silicon/30
 ]
 
+category: turret
+
 reloadTime: 15       # firing cycle speed
 range: 180
 rotateSpeed: 6
