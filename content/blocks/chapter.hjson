@@ -1,23 +1,24 @@
-type: powerTurret
+type: PowerTurret
 name: Chapter
 description: A relatively powerful electric turret. Fires a constant stream of plasma.
 size: 2
 health: 500
-research:{
-    parent: ripple
-    requirements: [
-        silicon/2000
-        titanium/3000
-        metaglass/500
-    ]
+
+research: {
+  parent: ripple
+  requirements: [
+    silicon/2000
+    titanium/3000
+    metaglass/500
+  ]
 }
 
 requirements: [
-    titanium/50
-    silicon/30
+  titanium/50
+  silicon/30
 ]
 
-reload: 15         # firing cycle speed (lower = smoother beam)
+reloadTime: 15       # firing cycle speed
 range: 180
 rotateSpeed: 6
 shootCone: 20
@@ -26,7 +27,7 @@ consumes: {
   power: 5
 }
 
-bullet: {
+shootType: {
   type: ContinuousLaserBulletType
   damage: 7
   length: 180
