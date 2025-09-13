@@ -26,7 +26,7 @@ rotateSpeed: 6
 shootCone: 20
 
 consumes: {
-  power: 5
+  power: 0.1
 }
 
 shootType: {
