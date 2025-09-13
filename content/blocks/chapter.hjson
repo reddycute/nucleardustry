@@ -1,0 +1,37 @@
+type: powerTurret
+name: Chapter
+description: A relatively powerful electric turret. Fires a constant stream of plasma.
+size: 2
+health: 500
+research:{
+    parent: ripple
+    requirements: [
+        silicon/2000
+        titanium/3000
+        metaglass/500
+    ]
+}
+
+requirements: [
+    titanium/50
+    silicon/30
+]
+
+reload: 15         # firing cycle speed (lower = smoother beam)
+range: 180
+rotateSpeed: 6
+shootCone: 20
+
+consumes: {
+  power: 5
+  liquid: water/0.5   # optional: coolant
+}
+
+bullet: {
+  type: ContinuousLaserBulletType
+  damage: 7
+  length: 180
+  width: 3
+  lifetime: 20
+  colors: [ ff0000aa, ff0000, ffffff ]
+}
