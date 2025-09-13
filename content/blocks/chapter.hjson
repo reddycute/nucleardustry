@@ -24,7 +24,6 @@ shootCone: 20
 
 consumes: {
   power: 5
-  liquid: water/0.5   # optional: coolant
 }
 
 bullet: {
