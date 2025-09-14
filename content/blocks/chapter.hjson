@@ -31,6 +31,7 @@ consumes: {
 
 shootType: {
   type: ContinuousLaserBulletType
+  range: 47
   damage: 7
   length: 180
   width: 3
