@@ -13,12 +13,18 @@ consumes: {
     }
 }
 research: {
-    parent: cryofluid-mixer
+    parent: cryofluidMixer
     requirements: [
         silicon/3000
         titanium/5000
         lead/4000
     ]
+}
+
+requirements: {
+    silicon/50
+    titanium/100
+    lead/75
 }
 
 outputLiquid: hydrogenliquid/1

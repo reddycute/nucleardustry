@@ -1,4 +1,5 @@
 gas: false
+name: "Liquid Hydrogen"
 color: ffcff6
 flammability: 1
 explosiveness: 0
