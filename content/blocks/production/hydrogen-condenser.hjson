@@ -21,10 +21,10 @@ research: {
     ]
 }
 
-requirements: {
+requirements: [
     silicon/50
     titanium/100
     lead/75
-}
+]
 
 outputLiquid: hydrogenliquid/1
