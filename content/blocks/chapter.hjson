@@ -1,6 +1,6 @@
 type: PowerTurret
 name: Chapter
-description: A relatively powerful electric turret. Fires a constant stream of plasma.
+description: A relatively powerful electric turret. Rapidly fires a plasma beams.
 size: 2
 health: 500
 
@@ -27,6 +27,10 @@ shootCone: 20
 
 consumes: {
   power: 0.1
+  liquid: [
+    liquid: hydrogenliquid
+    amount: 0.10
+  ]
 }
 
 shootType: {
