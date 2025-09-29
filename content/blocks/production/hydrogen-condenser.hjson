@@ -1,0 +1,16 @@
+name: "Hydrogen Condenser"
+description: "Condenses gaseous hydrogen from the air into liquid H2."
+type: GenericCrafter
+size: 3
+hasLiquids: true
+liquidCapacity: 120
+craftTime: 40
+consumes: {
+    power: 3
+    liquid: {
+        liquid: cryofluid
+        amount: 0.05
+    }
+}
+
+outputLiquid: hydrogenliquid/1

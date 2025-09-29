@@ -1,0 +1,13 @@
+gas: false
+color: ffcff6
+flammability: 1
+explosiveness: 0
+research: {
+    parent: cryofluid
+    objectives: [
+        {
+            type: Produce
+            content: hydrogenliquid
+        }
+    ]
+}
