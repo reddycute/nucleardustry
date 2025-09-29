@@ -5,7 +5,7 @@ size: 3
 hasLiquids: true
 liquidCapacity: 120
 craftTime: 40
-category: production
+category: crafting
 consumes: {
     power: 3
     liquid: {
