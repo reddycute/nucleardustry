@@ -14,7 +14,7 @@ consumes: {
     }
 }
 research: {
-    parent: cryofluidMixer
+    parent: cryofluid-mixer
     requirements: [
         silicon/3000
         titanium/5000
