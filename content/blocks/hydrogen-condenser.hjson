@@ -13,6 +13,7 @@ consumes: {
         amount: 0.5
     }
 }
+outputLiquid: hydrogenliquid/1
 
 requirements: [
     silicon/50
@@ -28,4 +29,3 @@ research: {
         lead/4000
     ]
 }
-outputLiquid: {liquid: hydrogenliquid, amount: 0.25}
