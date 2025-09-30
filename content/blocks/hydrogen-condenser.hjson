@@ -10,10 +10,10 @@ consumes: {
     power: 3
     liquid: {
         liquid: cryofluid
-        amount: 0.5
+        amount: 1
     }
 }
-outputLiquid: hydrogenliquid/1
+outputLiquid: hydrogenliquid/0.2
 
 requirements: [
     silicon/50

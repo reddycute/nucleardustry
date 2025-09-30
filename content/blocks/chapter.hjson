@@ -5,40 +5,41 @@ size: 2
 health: 500
 
 research: {
-  parent: ripple
+  parent: fuse
   requirements: [
-    silicon/2000
-    titanium/3000
-    metaglass/500
+    silicon/5000
+    titanium/6800
+    thorium/3200
+    plastanium/1500
   ]
 }
 
 requirements: [
-  titanium/50
-  silicon/30
+  titanium/200  
+  silicon/150  
+  thorium/100  
+  plastanium/50  
 ]
 
 category: turret
 
 reloadTime: 15       # firing cycle speed
-range: 180
+range: 30
 rotateSpeed: 6
 shootCone: 20
 
 consumes: {
-  power: 0.1
+  power: 50
   liquid:{
       liquid: hydrogenliquid
-      amount: 0.10
+      amount: 2
     }
 }
 
 shootType: {
   type: ContinuousLaserBulletType
-  range: 47
-  damage: 7
-  length: 180
+  range: 30
+  damage: 9
   width: 3
-  lifetime: 20
   colors: [ ff0000, ffcff6, ffffff ]
 }
