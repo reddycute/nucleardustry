@@ -1,6 +1,6 @@
 type: PowerTurret
 name: Chapter
-description: A relatively powerful electric turret. Rapidly fires a plasma beams.
+description: A relatively powerful electric turret. Rapidly fires plasma beams.
 size: 2
 health: 500
 
