@@ -24,7 +24,7 @@ requirements: [
 category: turret
 
 reloadTime: 15       # firing cycle speed
-range: 30
+range: 240
 rotateSpeed: 6
 shootCone: 20
 
