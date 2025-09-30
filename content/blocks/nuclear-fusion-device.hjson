@@ -1,0 +1,41 @@
+name: "Nuclear Fusion Device"
+description: "Fuses and cools liquid hydrogen into liquid helium."
+type: GenericCrafter
+size: 4
+hasLiquids: true
+liquidCapacity: 150
+craftTime: 45
+category: crafting
+consumes: {
+    power: 3
+    liquids: [
+        {
+            liquid: hydrogenliquid
+            amount: 0.7
+        }
+        {
+            liquid: cryofluid
+            amount: 0.5
+        }
+        {
+            liquid: slag
+            amount: 1
+        }
+    ]
+}
+outputLiquid: hydrogenliquid/0.7
+
+requirements: [
+    silicon/125
+    titanium/150
+    lead/100
+]
+
+research: {
+    parent: hydrogen-condenser
+    requirements: [
+        silicon/4000
+        titanium/5000
+        lead/3200
+    ]
+}

@@ -1,0 +1,15 @@
+gas: false
+name: "Liquid Helium"
+description: "The second lightest and most abundant element. Inert."
+color: fec7ab
+flammability: 0
+explosiveness: 0
+research: {
+    parent: hydrogenliquid
+    objectives: [
+        {
+            type: Produce
+            content: liquid-helium
+        }
+    ]
+}

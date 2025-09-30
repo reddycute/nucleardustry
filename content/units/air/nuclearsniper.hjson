@@ -1,6 +1,6 @@
 type: mech
 name: Nuclear barrage
-description: A unit that fires heavily damaging thorium and hydrogen bullets.
+description: A unit that fires heavily damaging thorium and hydrogen bullets. The sprite is basically a Corvus but recoloured.
 health: 2000
 speed: 3
 research: {
