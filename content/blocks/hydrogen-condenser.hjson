@@ -5,7 +5,7 @@ size: 3
 hasLiquids: true
 liquidCapacity: 120
 craftTime: 40
-category: crafting
+category: production
 consumes: {
     power: 3
     liquid: {
@@ -13,14 +13,7 @@ consumes: {
         amount: 0.5
     }
 }
-research: {
-    parent: cryofluid-mixer
-    requirements: [
-        silicon/3000
-        titanium/5000
-        lead/4000
-    ]
-}
+outputLiquid: {liquid: hydrogenliquid, amount: 0.25}
 
 requirements: [
     silicon/50
@@ -28,4 +21,11 @@ requirements: [
     lead/75
 ]
 
-outputLiquid: hydrogenliquid/1
+research: {
+    parent: cultivator
+    requirements: [
+        silicon/3000
+        titanium/5000
+        lead/4000
+    ]
+}

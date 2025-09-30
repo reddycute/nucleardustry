@@ -40,5 +40,5 @@ shootType: {
   length: 180
   width: 3
   lifetime: 20
-  colors: [ ff0000aa, ff0000, ffffff ]
+  colors: [ ff0000, ffcff6, ffffff ]
 }
